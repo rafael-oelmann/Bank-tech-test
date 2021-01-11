@@ -1,7 +1,9 @@
-var Add = require("../src/App");
+var Account = require("../src/account");
 
-describe("add test", () => {
-  it("calculates x + y = z", () => {
-    expect(Add(10, 5)).toEqual(15);
+fakeAccount = new Account();
+
+describe("displayBalance()", () => {
+  it("returns the users balance with no hisory", () => {
+    expect(fakeAccount.displayBalance()).toEqual(3000);
   });
 });
