@@ -1,27 +1,38 @@
 # Bank tech test
 
-Today, you'll practice doing a tech test.
+Here is a simple bank app that I built justing node.js along jasmine as a testing framework 🏦
 
-For most tech tests, you'll essentially have unlimited time. This practice session is about producing the best code you can when there is a minimal time pressure.
+## User Stories
 
-You'll get to practice your OO design and TDD skills.
+```
+As a client
+So I can keep my money secure
+I would like to deposit my cash
+```
 
-You'll work alone, and you'll also review your own code so you can practice reflecting on and improving your own work.
+```
+As a client
+So I can use my money
+I would like to withdraw my cash
+```
 
-## Specification
+```
+As a client
+So I can quickly see how much money I have
+I would like to my app to display my current balance
+```
 
-### Requirements
+```
+As a client
+So I can keep track on my spending
+I would like to my app to display my transactions (inc Date)
+```
 
-- You should be able to interact with your code via a REPL like IRB or the JavaScript console. (You don't need to implement a command line interface that takes input from STDIN.)
-- Deposits, withdrawal.
-- Account statement (date, amount, balance) printing.
-- Data can be kept in memory (it doesn't need to be stored to a database or anything).
-
-## Images
+## Class Diagram - Account
 
 ![image of a class diagram.](/images/diagram.png "image of a class diagram.")
 
-### Acceptance criteria
+### Input/Output example
 
 **Given** a client makes a deposit of 1000 on 10-01-2012  
 **And** a deposit of 2000 on 13-01-2012  
