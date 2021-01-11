@@ -17,3 +17,10 @@ describe("depositCash()", () => {
     expect(fakeAccount.displayBalance()).toEqual(3500);
   });
 });
+
+describe("withdrawCash()", () => {
+  it("decreases balance by amount inputed", () => {
+    fakeAccount.withdrawCash(500);
+    expect(fakeAccount.displayBalance()).toEqual(2500);
+  });
+});
