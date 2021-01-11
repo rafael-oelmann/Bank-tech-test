@@ -1,6 +1,14 @@
 class Account {
+  constructor() {
+    this.balance = 0;
+  }
+
   displayBalance = () => {
-    return 3000;
+    return this.balance;
+  };
+
+  depositCash = (amount) => {
+    this.balance += amount;
   };
 }
 
