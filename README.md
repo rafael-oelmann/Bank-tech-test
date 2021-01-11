@@ -1,6 +1,6 @@
 # Bank tech test
 
-Here is a simple bank app that I built justing node.js along jasmine as a testing framework 🏦
+Here is a simple bank app that I built using node.js alongside jasmine its testing framework 🏦
 
 ## User Stories
 
