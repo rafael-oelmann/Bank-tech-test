@@ -1,5 +1,8 @@
 var Account = require("../src/account");
 
+let date = new Date(2021, 0, 12);
+jasmine.clock().mockDate(date);
+
 beforeEach(function () {
   fakeAccount = new Account();
   fakeAccount.depositCash(3000);

@@ -1,6 +1,5 @@
 class Transaction {
   constructor(input, balance) {
-    // this.date = generateDate();
     this.input = input;
     this.balance = balance;
   }
