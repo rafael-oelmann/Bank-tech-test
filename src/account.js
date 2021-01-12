@@ -11,7 +11,7 @@ class Account {
   };
 
   displayHistory = () => {
-    return this.transactionHistory;
+    return this.transactionHistory.reverse();
   };
 
   depositCash = (amount) => {
